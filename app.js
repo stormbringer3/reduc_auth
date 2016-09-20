@@ -10,7 +10,7 @@ var LocalStrategy = require('passport-local').Strategy;
 mongoose.connect( 'mongodb://localhost/react-starter' );
 
 var mongoUri = process.env.MONGODB_URI || 'mongodb://localhost/redux-auth'
-mongoose.connect.
+mongoose.connect.(mongoUri);
 
 var routes = require('./routes/index');
 var auth = require('./routes/auth');
